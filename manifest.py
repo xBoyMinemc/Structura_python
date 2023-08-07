@@ -5,14 +5,16 @@ import uuid
 
 def export(pack_name,nameTags=[]):
 
-    
+    name = pack_name.replace("/tmpPack/","").replace("tmpPack/","")
+    name = name[name.find("/")+1:]
+
     description="Structura block overlay pack, created by  \u00a7o\u00a75DrAv0011\u00a7r, \u00a7o\u00a79 FondUnicycle\u00a7r and\u00a7o\u00a75 RavinMaddHatter\u00a7r"
     if len(nameTags)>0:
         description=f"Nametags: {', '.join(nameTags)}. {description}"
     manifest = {
         "format_version": 2,
         "header": {
-            "name": pack_name.replace("/tmp/","").replace("tmp/",""),
+            "name": name,
             "description": description,
             "uuid": str(uuid.uuid4()),
             "version": [

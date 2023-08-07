@@ -1,0 +1,12 @@
+{  
+    "gems":{"file":"tmpMcstructure/gems and redstone.mcstructure",
+            "offset":[-32,0,-32]},
+    "stone":{"file":"tmpMcstructure/Stones.mcstructure",
+             "offset":[0,0,-32]},
+    "wood":{"file":"tmpMcstructure/wood.mcstructure",
+            "offset":[-31,0,-31]},
+    "decor":{"file":"tmpMcstructure/decorative.mcstructure",
+             "offset":[-32,0,-31]},
+    "wood2":{"file":"tmpMcstructure/wood2.mcstructure",
+             "offset":[-32,0,-31]}
+}
